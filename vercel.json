@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api:path*",
+      "destination": "https://www.genzcoder.dev/api:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
