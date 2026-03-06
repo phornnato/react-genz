@@ -1,12 +1,14 @@
 {
   "rewrites": [
-    {
-      "source": "/api:path*",
-      "destination": "https://www.genzcoder.dev/api:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/api-slider",              "destination": "https://www.genzcoder.dev/api-slider" },
+    { "source": "/api-about",               "destination": "https://www.genzcoder.dev/api-about" },
+    { "source": "/api-tool",                "destination": "https://www.genzcoder.dev/api-tool" },
+    { "source": "/api-video-category",      "destination": "https://www.genzcoder.dev/api-video-category" },
+    { "source": "/api-video-play-list",     "destination": "https://www.genzcoder.dev/api-video-play-list" },
+    { "source": "/api-data-contact",        "destination": "https://www.genzcoder.dev/api-data-contact" },
+    { "source": "/api-course",              "destination": "https://www.genzcoder.dev/api-course" },
+    { "source": "/api-course-detail/:slug", "destination": "https://www.genzcoder.dev/api-course-detail/:slug" },
+    { "source": "/(.*)",                    "destination": "/index.html" }
   ]
 }
+
